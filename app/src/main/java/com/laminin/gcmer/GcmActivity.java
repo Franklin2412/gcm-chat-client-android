@@ -25,7 +25,6 @@ import android.widget.TextView;
 
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GooglePlayServicesUtil;
-import com.google.android.gms.identity.intents.model.UserAddress;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -48,7 +47,7 @@ public class GcmActivity extends AppCompatActivity {
     private String sender;
 
     private static final int PLAY_SERVICES_RESOLUTION_REQUEST = 9000;
-    private static final String TAG = "MainActivity";
+    private static final String TAG = "GCMActivity";
 
     private BroadcastReceiver mRegistrationBroadcastReceiver;
     private ProgressBar mRegistrationProgressBar;
